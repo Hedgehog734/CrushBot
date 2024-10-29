@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button.AskCity.SendLocation" xml:space="preserve">
+    <value>Send my location 📍</value>
+  </data>
+  <data name="Button.AskMedia.Photo" xml:space="preserve">
+    <value>Photos 📸</value>
+  </data>
+  <data name="Button.AskMedia.Video" xml:space="preserve">
+    <value>Video 🎬</value>
+  </data>
+  <data name="Button.AskSex.Female" xml:space="preserve">
+    <value>Woman 💅</value>
+  </data>
+  <data name="Button.AskSex.Male" xml:space="preserve">
+    <value>Man 💪</value>
+  </data>
+  <data name="Button.AskSexFilter.Any" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="Button.AskSexFilter.Female" xml:space="preserve">
+    <value>Women 💅</value>
+  </data>
+  <data name="Button.AskSexFilter.Male" xml:space="preserve">
+    <value>Men 💪</value>
+  </data>
+  <data name="Button.EditFilters.ChangeAge" xml:space="preserve">
+    <value>📅 Change age</value>
+  </data>
+  <data name="Button.EditFilters.ChangeSex" xml:space="preserve">
+    <value>💪💅 Change gender</value>
+  </data>
+  <data name="Button.EditProfile.ChangeAll" xml:space="preserve">
+    <value>👤 Start from scratch</value>
+  </data>
+  <data name="Button.EditProfile.ChangeCity" xml:space="preserve">
+    <value>🌍 Change city</value>
+  </data>
+  <data name="Button.EditProfile.ChangeDescription" xml:space="preserve">
+    <value>✏️ Change description</value>
+  </data>
+  <data name="Button.EditProfile.ChangeMedia" xml:space="preserve">
+    <value>📷🎬 Change media</value>
+  </data>
+  <data name="Button.Profile.Edit" xml:space="preserve">
+    <value>👤 Edit profile</value>
+  </data>
+  <data name="Button.Profile.Filters" xml:space="preserve">
+    <value>📋 Change filters</value>
+  </data>
+  <data name="Button.Profile.Settings" xml:space="preserve">
+    <value>⚙️ Settings</value>
+  </data>
+  <data name="Button.Profile.ViewMatches" xml:space="preserve">
+    <value>🎉 View matches</value>
+  </data>
+  <data name="Button.Profile.ViewProfiles" xml:space="preserve">
+    <value>🔍 Start search</value>
+  </data>
+  <data name="Button.Settings.DeleteProfile" xml:space="preserve">
+    <value>🗑️ Delete profile</value>
+  </data>
+  <data name="Button.Settings.HideEmoji" xml:space="preserve">
+    <value>Hide emoji</value>
+  </data>
+  <data name="Button.Settings.Language" xml:space="preserve">
+    <value>🌐 Language</value>
+  </data>
+  <data name="Button.Settings.ShowEmoji" xml:space="preserve">
+    <value>Show emoji</value>
+  </data>
+  <data name="Button.Settings.SubscribeMonthly" xml:space="preserve">
+    <value>Monthly – {0}€</value>
+  </data>
+  <data name="Button.Settings.SubscribeYearly" xml:space="preserve">
+    <value>Yearly – {0}€ (-{1}%)</value>
+  </data>
+  <data name="Button.Settings.Subscription" xml:space="preserve">
+    <value>✨ Crush Premium</value>
+  </data>
+  <data name="Button.Shared.Back" xml:space="preserve">
+    <value>◀️ Back</value>
+  </data>
+  <data name="Button.Shared.Continue" xml:space="preserve">
+    <value>Continue ▶️</value>
+  </data>
+  <data name="Button.Shared.Current" xml:space="preserve">
+    <value>Keep as is ▶️</value>
+  </data>
+  <data name="Message.AskAge.AskAge" xml:space="preserve">
+    <value>How old are you?</value>
+  </data>
+  <data name="Message.AskAgeFilter.AskAgeFilter" xml:space="preserve">
+    <value>Enter a number or age with a hyphen\. Allowed range: __{0}\-{1}__\.</value>
+  </data>
+  <data name="Message.AskAgeFilter.AskAgeFilterSub" xml:space="preserve">
+    <value>Enter a number or age with a hyphen\. Allowed range: __{0}\-{1}__\.
+
+||_✨ Subscription range: {2}\-{3}_||</value>
+  </data>
+  <data name="Message.AskCity.AskCity" xml:space="preserve">
+    <value>Which city?
+
+_Type it in, choose geolocation on the map 📎 or send your current 📍_</value>
+  </data>
+  <data name="Message.AskCity.ExternalError" xml:space="preserve">
+    <value>⌛ The external service didn't respond, please try again.</value>
+  </data>
+  <data name="Message.AskCity.InvalidCity" xml:space="preserve">
+    <value>❌🔍 City not found, please try again.</value>
+  </data>
+  <data name="Message.AskDescription.AskDescription" xml:space="preserve">
+    <value>Add a profile description\. Continue to leave the field blank\.
+
+_The text can be formatted\._</value>
+  </data>
+  <data name="Message.AskLanguage.AskLanguage" xml:space="preserve">
+    <value>Which language do you prefer?</value>
+  </data>
+  <data name="Message.AskMedia.AskMedia" xml:space="preserve">
+    <value>Choose what to upload: photos or a short video.</value>
+  </data>
+  <data name="Message.AskName.AskName" xml:space="preserve">
+    <value>What is your name?</value>
+  </data>
+  <data name="Message.AskSex.AskSex" xml:space="preserve">
+    <value>What is your gender?</value>
+  </data>
+  <data name="Message.AskSexFilter.AskSexFilter" xml:space="preserve">
+    <value>Who are you looking for?</value>
+  </data>
+  <data name="Message.ChooseCity.ChooseCity" xml:space="preserve">
+    <value>🔍 Found {0}. Please select yours.</value>
+  </data>
+  <data name="Message.ChoosePhoto.AskAddPhoto" xml:space="preserve">
+    <value>Add more or proceed to the next step\.</value>
+  </data>
+  <data name="Message.ChoosePhoto.ChoosePhoto" xml:space="preserve">
+    <value>Upload up to {0} photos one by one\.
+
+_Attach an image from the gallery, not a file\._</value>
+  </data>
+  <data name="Message.ChoosePhoto.PhotoAdded" xml:space="preserve">
+    <value>{0} out of {1} photos added.</value>
+  </data>
+  <data name="Message.ChooseVideo.ChooseVideo" xml:space="preserve">
+    <value>Send a video from {0} to {1} seconds long\.
+
+_Attach a video from the gallery, not a file\._</value>
+  </data>
+  <data name="Message.ChooseVideo.InvalidDuration" xml:space="preserve">
+    <value>⚠️ Video duration must be between {0} and {1} seconds.</value>
+  </data>
+  <data name="Message.DeleteProfile.DeleteProfile" xml:space="preserve">
+    <value>🚨 Please enter your profile name to confirm deletion\. This action cannot be undone\.
+__*{0}*__</value>
+  </data>
+  <data name="Message.Profile.Profile" xml:space="preserve">
+    <value>You are in your profile.</value>
+  </data>
+  <data name="Message.Registration.PressToStart" xml:space="preserve">
+    <value>Press {0} to start the bot 🤖</value>
+  </data>
+  <data name="Message.Shared.AgeValidation" xml:space="preserve">
+    <value>⚠️ The age can be between {0} and {1}.</value>
+  </data>
+  <data name="Message.Shared.BoostIncreased" xml:space="preserve">
+    <value>🚀 Boost increased\! *\({0}\/{1}\)*
+
+_Visit for {1} days in a row for maximum effect\._</value>
+  </data>
+  <data name="Message.Shared.BoostKeep" xml:space="preserve">
+    <value>🚀 Maximum boost\! *\({0}\/{0}\)*
+
+_Keep visiting to maintain the effect\._</value>
+  </data>
+  <data name="Message.Shared.ChooseAction" xml:space="preserve">
+    <value>Choose an action.</value>
+  </data>
+  <data name="Message.Shared.CityEntered" xml:space="preserve">
+    <value>🌍 Your city is set to __{0}__\.</value>
+  </data>
+  <data name="Message.Shared.InvalidLength" xml:space="preserve">
+    <value>⚠️ The length must be between {0} and {1} characters.</value>
+  </data>
+  <data name="Message.Shared.InvalidResolution" xml:space="preserve">
+    <value>⚠️ The minimum resolution is {0}x{0} pixels.</value>
+  </data>
+  <data name="Message.Shared.LowWeight" xml:space="preserve">
+    <value>🕒 No activity for a long time\.</value>
+  </data>
+  <data name="Message.Shared.LowWeightNoSub" xml:space="preserve">
+    <value>_Profile will be excluded from search\._</value>
+  </data>
+  <data name="Message.Shared.LowWeightSub" xml:space="preserve">
+    <value>_✨ Thanks to *Crush Premium*, your profile will not be excluded from search\._</value>
+  </data>
+  <data name="Message.Shared.Relevance" xml:space="preserve">
+    <value>_Don\'t forget to visit: the more often you visit, the higher your profile\'s relevance\._</value>
+  </data>
+  <data name="Message.Shared.UnhandledError" xml:space="preserve">
+    <value>🛠️ Oops! Something went wrong. Please try again later.</value>
+  </data>
+  <data name="Message.Subscription.Active" xml:space="preserve">
+    <value>✨ Thank you for subscribing *Crush Premium*\. Here's what is now unlocked:</value>
+  </data>
+  <data name="Message.Subscription.Features" xml:space="preserve">
+    <value>• 💚 Unlimited likes
+• 📅 Extended age filter
+• 🚀 Maximum profile boost
+• 🕒 Profile stays in search
+• ✨ Exclusive emoji by your name
+• 📷 2 more profile photos
+• 🎬 x2 profile video length
+• ✏️ x2 profile description length</value>
+  </data>
+  <data name="Message.Subscription.Inactive" xml:space="preserve">
+    <value>✨ Go beyond the limits and unlock exclusive features by subscribing *Crush Premium*:</value>
+  </data>
+  <data name="Message.Subscription.Management" xml:space="preserve">
+    <value>_*[Subscription management]({0})*_</value>
+  </data>
+  <data name="Message.Subscription.Subscribe" xml:space="preserve">
+    <value>🎉 Enjoy a *{0}%* discount on your first year's purchase\.</value>
+  </data>
+  <data name="Message.ViewProfile.AgeFilterReset" xml:space="preserve">
+    <value>📅🔄 Age filter temporarily reset.</value>
+  </data>
+  <data name="Message.ViewProfile.NewLike" xml:space="preserve">
+    <value>💚 New like\! *\({0}\)*</value>
+  </data>
+  <data name="Message.ViewProfile.NewMatch" xml:space="preserve">
+    <value>🎉 New match\! *\({0}\)*</value>
+  </data>
+  <data name="Message.ViewProfile.NoProfiles" xml:space="preserve">
+    <value>No new profiles available. Share the bot with your friends!</value>
+  </data>
+  <data name="Message.ViewProfile.PressAny" xml:space="preserve">
+    <value>_Press any button to view\._</value>
+  </data>
+  <data name="Message.ViewProfile.Proceed" xml:space="preserve">
+    <value>_Finish with the current profile\._</value>
+  </data>
+  <data name="Message.ViewProfile.StartSearch" xml:space="preserve">
+    <value>_Start search to view 🔍_</value>
+  </data>
+  <data name="Message.ViewProfile.StatusLiked" xml:space="preserve">
+    <value>_Liked you\!_ 💚</value>
+  </data>
+  <data name="Message.ViewProfile.StatusMatched" xml:space="preserve">
+    <value>_This is a match\!_ 🎉 {0}</value>
+  </data>
+</root>
